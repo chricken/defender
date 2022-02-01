@@ -1,0 +1,11 @@
+canvas {
+    position: fixed;
+    display: block;
+    left: 5px;
+    top: 5px;
+    /*
+    right: 5px;
+    bottom: 5px;
+    */
+    background: #ccc;
+}
