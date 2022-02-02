@@ -1,13 +1,13 @@
 'use strict';
 
 // IMPORT
-import game from './game.js';
+import lvl from './lvl.js';
 import canvas from './canvas.js';
 
 // FUNKTIONEN
 const init = () => {
     canvas.init();
-    game.init();
+    lvl.init();
 }
 
 // INIT
