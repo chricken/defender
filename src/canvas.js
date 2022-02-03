@@ -1,11 +1,13 @@
 'use strict';
 
 import dom, { $, $$ } from './dom.js';
+import lvl from './lvl.js';
 
 const canvas = {
     resize() {
-        this.cBG.width = window.innerWidth - 10;
-        this.cBG.height = window.innerHeight - 10;
+        this.cBG.width = window.innerWidth;
+        this.cBG.height = window.innerHeight;
+        //lvl.draw();
     },
     init() {
         this.cBG = $('#cBG');
