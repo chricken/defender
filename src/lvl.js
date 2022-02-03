@@ -43,7 +43,7 @@ const lvl = {
         const eventsResolved = [];
         for (let key in data.imgs) {
             this.imgs[key] = document.createElement('img');
-            // erst, wenn alle Bilder geladen sind, soll diese Promisesammlung erfüllt sein
+            // erst, wenn alle Bilder geladen sind, soll diese Promise-Sammlung erfüllt sein
             eventsResolved.push(new Promise(resolve => {
                 this.imgs[key].addEventListener('load', resolve)
             }))
